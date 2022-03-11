@@ -1,3 +1,5 @@
+# 201801285 컴퓨터전자시스템공학부 김희찬
+
 import serial
 from escpos.constants import GS
 
