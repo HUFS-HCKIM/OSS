@@ -3,7 +3,7 @@
 import serial
 from escpos.constants import GS
 
-print("응 이미 바꿨어")
+print("같은내용수정")
 
 def openSer(port, baudrate = 9600, bytesize = serial.EIGHTBITS, parity = serial.PARITY_NONE, stopbits = serial.STOPBITS_ONE, timeout = None, xonxoff = False, rtscts = False, dsrdtr = False):
     ser = serial.Serial()
