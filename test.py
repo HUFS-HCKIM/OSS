@@ -4,6 +4,7 @@ import serial
 from escpos.constants import GS
 
 print("수정1차")
+print("수정2차")
 
 def openSer(port, baudrate = 9600, bytesize = serial.EIGHTBITS, parity = serial.PARITY_NONE, stopbits = serial.STOPBITS_ONE, timeout = None, xonxoff = False, rtscts = False, dsrdtr = False):
     ser = serial.Serial()
